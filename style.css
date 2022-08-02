@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Poppins:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Poppins:ital,wght@0,500;0,600;1,500;1,600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow: 0;
+}
+
+body{
+   background-color: #000000;
+   background-image: url('/assets/bg.png'); 
+   background-repeat: no-repeat;
+   /* object-fit: cover; */
+   background-size: auto 980px;
+}
+
+ /* Nav section */
+
+.navbar {
+    background-color: #000000;
+    display: flex;
+    flex-direction: row;
+    height: 10vh;
+}
+
+.logo{
+    flex: 1;
+    height: 40px;
+    width: 110px;
+    margin-left: 40px;
+    margin-top: 15px;
+}
+
+.grow-list{
+    flex: 2;
+}
+
+.list{
+    display: inline-block;
+    margin: 20px 140px;
+}
+
+.list-item{
+    color: #ffffff;
+    font-size: 18px;
+    display: inline-block;
+    margin-right: 50px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    cursor: pointer;
+}
+
+
+.button-small{
+    margin-top: 15px;
+    margin-right: 50px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    padding: 10px 25px;
+    font-size: 17px;
+    border-radius: 10px;
+    /* background: linear-gradient(360deg, #fff -90%, #8D3DAF 100%); */
+    background-color: #8D3DAF;
+    color: #fff;
+    border: none;
+}
+
+.button-small:hover{
+    box-shadow: 0px 5px 10px #CAD5E2;
+    cursor: pointer;
+}
+
+
+.select{
+    color: #fff;
+    background-color:#000000;
+    border: none;
+}
+
+/* Hero Section */
+
+.hero {
+    text-align: center;
+    margin-top: 130px;
+}
+
+.hero-heading{
+    font-family: 'Montserrat';
+    font-size: 85px;
+    margin-left: 200px;
+    margin-right: 200px;
+    color: #fff;
+}
+
+.hero-description{
+    font-family: 'Poppins';
+    color: #fff;
+    font-size: 25px;
+    font-weight: 1000px; 
+}
+
+.button-large{
+    margin-top: 40px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    padding: 20px 20px;
+    font-size: 25px;
+    border-radius: 10px;
+    background-color: #c70bec;
+    color: #fff;
+    border: none;
+}
+
+.button-large:hover{
+    box-shadow: 0px 5px 5px #0D0D0D;
+    cursor: pointer;
+}
